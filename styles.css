@@ -1,1 +1,58 @@
-/*  your css code here. If applicable */
+.image{
+    width:23%;
+}
+
+#input-element{
+    width:150px;
+}
+
+/* form{
+    margin-right:0px;
+} */
+
+/* .my-lists-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+} */
+
+.internal-div{
+    /* margin-left:100px; */
+    /* width:13vw; */
+}
+
+
+@media screen and (max-width:798px) {
+    
+    #input-element{
+        width:100%;
+    }
+
+    .my-lists-1{
+        display:block;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    form>button{
+        width:100px;
+    }
+
+    .input{
+        display:flex;
+        flex-direction: column;
+    }
+
+    #input-element{
+        width:300px;
+    }
+    
+    .internal-div{
+        width:0px;
+        display: none;
+    }
+}
